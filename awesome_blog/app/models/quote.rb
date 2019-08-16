@@ -10,4 +10,5 @@ end
 
 class Quote < ApplicationRecord
     include WordCounter
+    inclue Publishable
 end
