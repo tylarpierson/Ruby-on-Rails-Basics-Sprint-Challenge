@@ -1,5 +1,12 @@
-require WordCount
+module WordCounter
+    def word_count(num)
+        num =  body.length
+        if body.length = nil
+            0
+        end
+    end
+end
 
 class Post < ApplicationRecord
-    include WordCount
+    include WordCounter
 end
