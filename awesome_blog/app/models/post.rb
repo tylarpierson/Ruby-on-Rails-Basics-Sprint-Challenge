@@ -1,6 +1,6 @@
 module WordCounter
     def word_count(num)
-        puts num =  body.length
+        num =  body.length
         if body.length = nil
             0
         end

@@ -1,9 +1,10 @@
 module WordCounter
     def word_count(num)
-        puts num =  body.length
-        if body.length = nil
-            0
+        length = 0
+        num.map do |body|
+            length += body.length
         end
+        length
     end
 end
 
